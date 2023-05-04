@@ -1,0 +1,440 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;600;900&display=swap");
+
+body {
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Header */
+
+.navbarContainer {
+  position: fixed;
+  margin: 0;
+  width: 100%;
+  height: 50px;
+  background-color: #000000;
+  background-size: cover;
+  justify-content: space-around;
+  display: flex;
+  align-items: center;
+  z-index: 1;
+}
+
+.navbarContainer label {
+  color: #fde2f3;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+li {
+  list-style: none;
+  text-decoration: none;
+}
+
+.links {
+  margin: 0;
+  padding: 0;
+}
+
+.links li {
+  margin: 10px;
+  font-size: 30px;
+  display: inline-flex;
+  align-items: center;
+}
+
+a {
+  list-style: none;
+  text-decoration: none;
+  color: #fde2f3;
+  font-size: 30px;
+}
+
+a:hover {
+  color: #6172b0;
+}
+
+.checkbtn {
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+  float: right;
+  margin-right: 10px;
+}
+
+
+/* section */
+.pContainer {
+  background-color: #000000;
+  z-index: 0;
+}
+
+.profile {
+  margin: auto;
+  color: #fde2f3;
+  width: 90%;
+  height: 100vh;
+  display: flex;
+}
+
+.greeting p {
+  padding: 5px;
+  font-size: 20px;
+  font-weight: 900;
+}
+
+.greeting img {
+  width: 40px;
+  border-radius: 50%;
+}
+
+.greeting img:hover {
+  filter: drop-shadow(20px 10px 7px);
+}
+
+.greeting li {
+  margin: 20px;
+  display: inline-flex;
+}
+
+.hey {
+  margin: 0;
+  padding: 10px;
+}
+
+.greeting {
+  margin: auto;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+}
+
+.greeting ul {
+  margin: 0;
+  padding: 0;
+}
+
+.s1 {
+  font-size: 50px;
+  font-weight: 900;
+  color: #6172b0;
+}
+
+.s2 {
+  font-size: 50px;
+  font-weight: 900;
+  color: #6172b0;
+}
+
+.profileIMG {
+  position: relative;
+  margin: auto;
+  
+}
+
+.profileIMG img {
+  
+  width: 300px;
+  border-radius: 50%;
+  /* filter: drop-shadow(74px 100px 100px); */
+ 
+}
+
+/* Education */
+.container2 {
+  font-weight: 500;
+  padding: 10px;
+  width: 100%;
+  background-color: #090c2e;
+}
+
+.education {
+  height: 100%;
+  padding: 10px;
+  border: gold 2px solid;
+  margin: auto;
+  text-align: justify;
+  width: 90%;
+  color: #fde2f3;
+}
+
+.education h2 {
+  text-align: center;
+  color: #6172b0;
+  font-weight: 600;
+}
+
+.education p {
+  padding: 10px;
+}
+
+.gaps {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.imp {
+  color: #6172b0;
+  font-weight: 600;
+}
+
+.skillContainer {
+  font-weight: 500;
+  padding: 10px;
+  width: 100%;
+  height: 100%;
+  background-color: #000000;
+  background-size: cover;
+}
+
+.skillContainer h2 {
+  text-align: center;
+  color: #6172b0;
+  font-weight: 600;
+}
+
+.mern {
+  margin: 50px;
+}
+
+.Certifications {
+  font-weight: 500;
+  padding: 10px;
+  width: 100%;
+  height: 100%;
+  background-color: #090c2e;
+}
+
+.cirFlex img {
+  margin: auto;
+  width: 30%;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+}
+
+.Certifications .cirFlex {
+  display: inline-flex;
+}
+
+.Certifications h2 {
+  text-align: center;
+  color: #6172b0;
+  font-weight: 600;
+}
+
+.Certifications h3 {
+  text-align: center;
+  color: #6172b0;
+  font-weight: 500;
+}
+
+.project {
+  font-weight: 500;
+  padding: 10px;
+  width: 100%;
+  height: 100%;
+  background-color: #000000;
+}
+
+.cirFlex2 {
+  height: 100%;
+  display: inline-flex;
+  margin: 0;
+}
+
+.project h2 {
+  text-align: center;
+  color: #6172b0;
+  font-weight: 600;
+}
+
+.project h3 {
+  text-align: center;
+  color: #6172b0;
+  font-weight: 500;
+}
+
+.project p {
+  margin: 0;
+  text-align: center;
+  color: #6172b0;
+  font-weight: 500;
+}
+
+.cirFlex2 img {
+  margin: auto;
+  display: flex;
+  width: 30%;
+}
+
+.projects img {
+  margin: 0;
+  padding: 0;
+}
+
+.footer {
+  background-color: #000000;
+}
+
+.footer h4 {
+  padding-top: 10px;
+  text-align: center;
+  font-weight: 700;
+  color: #a5d7e8;
+}
+
+.footer img {
+  margin: 10px;
+  width: 20px;
+}
+
+.footer ul {
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.footer li {
+  display: inline-flex;
+}
+
+@media (max-width: 1024px) {
+  .navbarContainer label {
+    color: #fde2f3;
+    font-size: 30px;
+    font-weight: 700;
+    
+  }
+  .navbarContainer {
+    margin: 0;
+    height: 30px;
+    justify-content: space-between;
+  }
+
+  a {
+    font-size: 20px;
+  }
+
+  .greeting {
+    width: 90%;
+  }
+
+  .profile {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .greeting {
+    margin: auto;
+    width: 90%;
+    text-align: center;
+  }
+
+  .profileIMG img {
+    margin: auto;
+    width: 200px;
+    border-radius: 50%;
+    /* filter: drop-shadow(74px 100px 100px); */
+  }
+}
+
+@media (max-width: 779px) {
+  #check {
+    display: none;
+  }
+  .menu{
+    display: none;
+    margin: auto 10px auto auto;
+    float: right;
+  }
+  .menu:hover{
+    background-color: #b06f61;
+    cursor: pointer;
+  }
+  .line{
+    margin: 0;
+    width: 20px;
+    height: 4px;
+    padding: 2px;
+    color:orangered;
+    border-top: 2px solid white;
+  }
+.navbarContainer {
+  
+  display: none;
+}
+
+  .greeting p {
+    font-size: 10px;
+  }
+
+  .s1 {
+    font-size: 20px;
+  }
+
+  .s2 {
+    font-size: 10px;
+  }
+
+  .profile {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .profileIMG img {
+    margin: auto;
+    width: 140px;
+  }
+
+  .profileIMG {
+    margin: auto auto 0 auto;
+  }
+
+  .greeting img {
+    width: 20px;
+  }
+
+  .greeting li {
+    margin: 5px;
+  }
+
+  .links  {
+   
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    width: 100%;
+    background-color:#2a2f4f;
+    /* display: none; */
+    
+  }
+  .links li{
+    font-size: small;
+    flex-direction: column;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 0;
+    width: 100%;
+    border-top: 2px solid rgb(138, 86, 86);
+  }
+.active{
+  display: block;
+}
+.footer li a {
+  font-size: small;
+
+  flex-direction: row;
+}
+.footer img {
+  margin: 3px;
+  width: 10px;
+}
+
+
+  }
